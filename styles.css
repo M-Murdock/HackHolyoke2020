@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(144,244,244);
+  margin: 0px 0px 0px 0px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#home {
+  padding-top: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+#title {
+  color: rgb(155,8,68);
+  font-size: 100px;
+  text-align:center;
+  font-style: bold;
+}
+#dates {
+  color: rgb(244,45,45);
+  font-size: 25px;
+  text-align:center;
+}
+
+footer {
+  background-image: url("images/fence.png");
+  /* background-color: black; */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  grid-area: footer;
+  font-size: 17px;
+  height:300px;
+  /* color: white; */
+}
+
+.footer-item {
+  padding: 30px 20px 30px 20px;
+}
+
+.footer-item img {
+  height:40px;
+  width:40px;
+}
+
+header {
+  background-color: rgb(144,244,244);
+  position:fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  grid-area: head;
+  font-size: 17px;
+  color: white;
+}
+
+.header-item:hover {
+  box-shadow: 0 2px 0 #FFF inset;
+  color: #000;
+}
+
+.header-item {
+  padding: 30px 20px 30px 20px;
+  color: rgb(226,143,143);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#content {
+  display: grid;
+  grid-template-rows:100%;
+}
+
+.content-item {
+  padding-top: 100px;
+  text-align: center;
+}
+.content-item p {
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-content {
+  color: rgb(155,8,68);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#about-content h1 {
+  text-align: left;
+}
+
+#faq-content {
+  color: rgb(10,76,12);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#faq-content h1 {
+  text-align: right;
+}
+
+#sponsors-content {
+  color: rgb(244,55,86);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#sponsors-content h1 {
+  text-align: left;
+}
