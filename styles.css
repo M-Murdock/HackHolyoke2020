@@ -10,6 +10,9 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
+  background-image: url("images/Clouds.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #title {
@@ -25,7 +28,8 @@ body {
 }
 
 footer {
-  background-image: url("images/fence.png");
+  background-image: url("images/FenceFlowers.png");
+  background-size: cover;
   left: 0;
   right: 0;
   display: flex;
@@ -45,7 +49,6 @@ footer {
 }
 
 header {
-  background-color: rgba(171,238,160);
   position:fixed;
   left: 0;
   right: 0;
@@ -54,6 +57,14 @@ header {
   grid-area: head;
   font-size: 17px;
   color: white;
+}
+
+#mountains {
+  left: 0;
+  right: 0;
+  background-image: url("images/Mountains.png");
+  height: 30em;
+  background-size: cover;
 }
 
 #links {
