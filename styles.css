@@ -26,7 +26,6 @@ body {
 
 footer {
   background-image: url("images/fence.png");
-  /* background-color: black; */
   left: 0;
   right: 0;
   display: flex;
@@ -34,7 +33,6 @@ footer {
   grid-area: footer;
   font-size: 17px;
   height:300px;
-  /* color: white; */
 }
 
 .footer-item {
@@ -95,12 +93,32 @@ a {
   font-family: 'Roboto', sans-serif;
 }
 
+.content-item h1 {
+  font-size:60px;
+}
+
 #about-content {
   color: rgb(155,8,68);
   padding-left: 10px;
   padding-right: 10px;
 }
 #about-content h1 {
+  text-align: left;
+}
+
+#schedule-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#schedule-content h1 {
+  text-align: right;
+}
+
+#prizes-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#prizes-content h1 {
   text-align: left;
 }
 
