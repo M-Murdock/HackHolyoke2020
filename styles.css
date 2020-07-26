@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(144,244,244);
+  background: rgba(171,238,160);
+  background: linear-gradient(0deg, rgba(171,238,160,1) 0%, rgba(125,242,242,1) 100%);
   margin: 0px 0px 0px 0px;
   font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -46,15 +47,21 @@ footer {
 }
 
 header {
-  background-color: rgb(144,244,244);
+  background-color: rgba(171,238,160);
   position:fixed;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 50% 50%;
   grid-area: head;
   font-size: 17px;
   color: white;
+}
+
+#links {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 .header-item:hover {
@@ -67,6 +74,9 @@ header {
   color: rgb(226,143,143);
 }
 
+#logo {
+  height: 150px;
+}
 a {
   text-decoration: none;
   color: inherit;
