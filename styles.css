@@ -1,18 +1,17 @@
 body {
-  /* background: rgba(171,238,160);
-  background: linear-gradient(0deg, rgba(171,238,160,1) 0%, rgba(125,242,242,1) 100%); */
   margin: 0px 0px 0px 0px;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #home {
-  padding-top: 30px;
+  padding-top: 40px;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
   background-image: url("images/Clouds.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 #title {
