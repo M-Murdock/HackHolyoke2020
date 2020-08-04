@@ -55,10 +55,7 @@ footer {
 }
 
 #bottom {
-  /* background-image: url("images/GreenBackground-1.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:top; */
+
 }
 
 header {
@@ -66,10 +63,12 @@ header {
   left: 0;
   right: 0;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 10% 80% 10%;
   grid-area: head;
   font-size: 17px;
   color: white;
+  padding:10px;
+  background-color:rgba(255,255,255,0.3);
 }
 
 #hamburger {
@@ -94,7 +93,7 @@ header {
   #hamburger {
     display:inline-grid;
   }
-  #logo {
+  .flowerOutline {
     display: none;
   }
   header {
@@ -115,6 +114,7 @@ header {
     width:200px;
   }
   #title {
+    padding-top:40px;
     width:100%;
   }
   .closed {
@@ -135,7 +135,7 @@ header {
 
 #links {
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -149,8 +149,8 @@ header {
   color: rgb(226,143,143);
 }
 
-#logo {
-  height: 150px;
+.flowerOutline {
+  height: 75px;
 }
 a {
   text-decoration: none;
@@ -175,35 +175,35 @@ a {
 }
 
 #about-content {
-  color: rgb(155,8,68);
+  color: white;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: justify;
 }
 #about-content h1 {
-  text-align: left;
+  text-align: center;
 }
 
 #faq-content {
-  height:20%;
   padding-left: 10px;
   padding-right: 10px;
 }
-#faq-content h1 {
-  text-align: right;
+#faqLabel {
+  width:30%;
 }
+
 #faq-content ul li {
   list-style-type: none;
 }
 #faq-content ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: column;
+  display:table;
 }
 .faq-item:hover {
   cursor: pointer;
 }
 .faq-item {
   border-bottom: 5px white solid;
+  max-width: 45%;
 }
 .faq-item li {
   background-color: rgb(6,25,22);
