@@ -70,12 +70,21 @@ header {
 
 #hamburger {
   display:none;
+  height:30px;
+}
+
+.closed {
+  display: flex;
+}
+
+.open {
+  display: flex;
 }
 
 /* Account for Mobile Screens */
 @media screen and (max-width: 44em) {
   #hamburger {
-    display:inline;
+    display:inline-grid;
   }
   #logo {
     display: none;
@@ -99,6 +108,12 @@ header {
   }
   #title {
     width:100%;
+  }
+  .closed {
+    display:none;
+  }
+  .open {
+    display:block;
   }
 }
 
