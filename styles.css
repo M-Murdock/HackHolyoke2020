@@ -1,6 +1,10 @@
 body {
   margin: 0px 0px 0px 0px;
   font-family: 'Montserrat Alternates', sans-serif;
+  background-image: url("images/GreenCircuitry.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:top;
 }
 
 #home {
@@ -8,10 +12,6 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  background-image: url("images/Clouds.png");
-  background-size:contain;
-  background-repeat:no-repeat;
-  background-position:center;
 }
 
 #title {
@@ -27,8 +27,8 @@ body {
 }
 
 footer {
-  background-image: url("images/FenceFlowers.png");
-  background-size: cover;
+  /* background-image: url("images/FenceFlowers.png");
+  background-size: cover; */
   left: 0;
   right: 0;
   display: flex;
@@ -48,13 +48,17 @@ footer {
 }
 
 #top {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(125,242,242,1) 100%);
+  background-image: url("images/Gradient-Circuit.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top;
 }
 
 #bottom {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(179,249,168,1) 0%, rgba(255,255,255,1) 100%);
+  /* background-image: url("images/GreenBackground-1.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:top; */
 }
 
 header {
@@ -79,6 +83,10 @@ header {
 
 .open {
   display: flex;
+}
+
+.faq-flower{
+  height:100px;
 }
 
 /* Account for Mobile Screens */
@@ -175,24 +183,8 @@ a {
   text-align: left;
 }
 
-#schedule-content {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-#schedule-content h1 {
-  text-align: right;
-}
-
-#prizes-content {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-#prizes-content h1 {
-  text-align: left;
-}
-
 #faq-content {
-  color: rgb(10,76,12);
+  height:20%;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -203,25 +195,35 @@ a {
   list-style-type: none;
 }
 #faq-content ul {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
 }
 .faq-item:hover {
   cursor: pointer;
 }
 .faq-item {
   border-bottom: 5px white solid;
-  padding:10px;
+}
+.faq-item li {
+  background-color: rgb(6,25,22);
+  color: white;
+  margin:auto;
+  padding:30px;
 }
 
-.collapsed {
-  background-color:red;
-  height:20px;
-  overflow: hidden;
+.collapsed p {
+  display:none;
 }
+
 .expanded {
-  background-color:black;
-  height:auto;
+  display:inline;
+}
+
+.expanded p {
+  background-color: white;
+  color: rgb(6,25,22);
+  padding:30px;
 }
 
 #sponsors-content {
