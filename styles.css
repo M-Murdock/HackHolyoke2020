@@ -67,7 +67,7 @@ header {
   grid-area: head;
   font-size: 17px;
   color: white;
-  padding:10px;
+  padding-left:15px;
   background-color:rgba(255,255,255,0.3);
 }
 
@@ -84,9 +84,6 @@ header {
   display: flex;
 }
 
-.faq-flower{
-  height:100px;
-}
 
 /* Account for Mobile Screens */
 @media screen and (max-width: 44em) {
@@ -151,6 +148,7 @@ header {
 
 .flowerOutline {
   height: 75px;
+    padding-top:5px;
 }
 a {
   text-decoration: none;
@@ -195,15 +193,30 @@ a {
 #faq-content ul li {
   list-style-type: none;
 }
-#faq-content ul {
-  display:table;
+
+#faqColumns {
+  padding:30px;
+  display:grid;
+  grid-template-columns: 40% 20% 40%;
 }
+
+#flower-column {
+  background-image: url("images/HHFinalLogo.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+  height:100%;
+}
+
+.faq-flower{
+  width:85%;
+}
+
 .faq-item:hover {
   cursor: pointer;
 }
 .faq-item {
   border-bottom: 5px white solid;
-  max-width: 45%;
+  width:100%;
 }
 .faq-item li {
   background-color: rgb(6,25,22);
@@ -230,6 +243,8 @@ a {
   color: rgb(244,55,86);
   padding-left: 10px;
   padding-right: 10px;
+  background-color:white;
+  height:100%;
 }
 #sponsors-content h1 {
   text-align: left;
