@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'silom';
+  src: url('fonts/silom-.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+}
 body {
   margin: 0px 0px 0px 0px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'silom', Fallback, sans-serif;
   background-image: url("images/GreenCircuitry.png");
   background-size:cover;
   background-repeat:no-repeat;
@@ -93,6 +98,14 @@ header {
   .flowerOutline {
     display: none;
   }
+  #flower-column {
+    display: none;
+  }
+  #faqColumns {
+    width:100%;
+    display:grid;
+    grid-template-rows: 100%;
+  }
   header {
     position:fixed;
     left: 0;
@@ -100,7 +113,6 @@ header {
     grid-area: head;
     font-size: 17px;
     color: white;
-    background-color:white;
     display: grid;
     grid-template-columns: 100%;
   }
@@ -120,6 +132,7 @@ header {
   .open {
     display:block;
   }
+
 }
 
 #mountains {
@@ -165,7 +178,7 @@ a {
   text-align: center;
 }
 .content-item p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'silom', Fallback, sans-serif;
 }
 
 .content-item h1 {
@@ -190,9 +203,6 @@ a {
   width:30%;
 }
 
-#faq-content ul li {
-  list-style-type: none;
-}
 
 #faqColumns {
   padding:30px;
@@ -207,10 +217,6 @@ a {
   height:100%;
 }
 
-.faq-flower{
-  width:85%;
-}
-
 .faq-item:hover {
   cursor: pointer;
 }
@@ -218,10 +224,11 @@ a {
   border-bottom: 5px white solid;
   width:100%;
 }
-.faq-item li {
+.faq-item h3 {
   background-color: rgb(6,25,22);
   color: white;
   margin:auto;
+  font-size:15px;
   padding:30px;
 }
 
@@ -248,4 +255,5 @@ a {
 }
 #sponsors-content h1 {
   text-align: left;
+  color:white;
 }
