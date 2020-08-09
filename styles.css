@@ -6,10 +6,6 @@
 body {
   margin: 0px 0px 0px 0px;
   font-family: 'silom', Fallback, sans-serif;
-  background-image: url("images/GreenCircuitry.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:top;
 }
 
 #home {
@@ -169,6 +165,10 @@ a {
 #content {
   display: grid;
   grid-template-rows:100%;
+  background-image: url("images/GreenCircuitry.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:top;
 }
 
 .content-item {
