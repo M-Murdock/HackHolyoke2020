@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'silom';
-  src: url('fonts/silom-.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('fonts/silom.ttf')  format('truetype'), /* Safari, Android, iOS */
 
 }
 body {
@@ -102,9 +102,9 @@ header {
     display: none;
   }
   #faqColumns {
-    width:100%;
+    padding:30px;
     display:grid;
-    grid-template-rows: 100%;
+    grid-template-columns: 100%  !important;
   }
   header {
     position:fixed;
