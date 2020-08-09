@@ -32,8 +32,6 @@ body {
 }
 
 footer {
-  /* background-image: url("images/FenceFlowers.png");
-  background-size: cover; */
   left: 0;
   right: 0;
   display: flex;
@@ -246,12 +244,15 @@ a {
   padding:30px;
 }
 
+#descriptionPart2 {
+  color: white;
+}
+
 #sponsors-content {
   color: rgb(244,55,86);
   padding-left: 10px;
   padding-right: 10px;
   background-color:white;
-  height:100%;
 }
 #sponsors-content h1 {
   text-align: left;
