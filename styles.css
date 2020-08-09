@@ -30,20 +30,19 @@ body {
 footer {
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: center;
   grid-area: footer;
-  font-size: 17px;
-  height:300px;
+  font-size:30px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  position:absolute;
 }
 
-.footer-item {
-  padding: 30px 20px 30px 20px;
-}
-
-.footer-item img {
-  height:40px;
-  width:40px;
+footer h1 {
+  text-align: left;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #top {
@@ -53,9 +52,6 @@ footer {
   background-position: top;
 }
 
-#bottom {
-
-}
 
 header {
   position:fixed;
@@ -163,12 +159,12 @@ a {
 }
 
 #content {
-  display: grid;
-  grid-template-rows:100%;
+  display: flex;
+  flex-direction: column;
+  background-color:black;
   background-image: url("images/GreenCircuitry.png");
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:top;
 }
 
 .content-item {
@@ -197,10 +193,10 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #faqLabel {
   width:30%;
 }
-
 
 #faqColumns {
   padding:30px;
@@ -246,15 +242,4 @@ a {
 
 #descriptionPart2 {
   color: white;
-}
-
-#sponsors-content {
-  color: rgb(244,55,86);
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color:white;
-}
-#sponsors-content h1 {
-  text-align: left;
-  color:black;
 }
