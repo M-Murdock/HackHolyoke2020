@@ -16,14 +16,15 @@ body {
 }
 
 #title {
-  width:100%;
+  padding-top: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 }
 
 #register {
-  width:25%;
+  width:20%;
   margin-left:30%;
 }
 
@@ -31,10 +32,11 @@ footer {
   left: 0;
   right: 0;
   grid-area: footer;
-  font-size:30px;
+  font-size:20px;
   background-color: white;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 20px;
   position:absolute;
 }
 
@@ -43,6 +45,10 @@ footer h1 {
   color:black;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+footer img {
+  width:40%;
 }
 
 #top {
@@ -60,7 +66,7 @@ header {
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-area: head;
-  font-size: 17px;
+  font-size: 21px;
   color: white;
   padding-left:15px;
   background-color:rgba(255,255,255,0.3);
@@ -88,7 +94,7 @@ header {
   .flowerOutline {
     display: none;
   }
-  #flower-column {
+  #flower-column img{
     display: none;
   }
   #faqColumns {
@@ -164,7 +170,7 @@ a {
   background-color:black;
   background-image: url("images/GreenCircuitry.png");
   background-size:cover;
-  background-repeat:no-repeat;
+  background-repeat: repeat-y;
 }
 
 .content-item {
@@ -176,13 +182,15 @@ a {
 }
 
 .content-item h1 {
-  font-size:60px;
+  font-size:45px;
 }
 
 #about-content {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: justify;
 }
 #about-content h1 {
@@ -195,7 +203,7 @@ a {
 }
 
 #faqLabel {
-  width:30%;
+  width:20%;
 }
 
 #faqColumns {
@@ -205,10 +213,13 @@ a {
 }
 
 #flower-column {
-  background-image: url("images/HHFinalLogo.png");
-  background-repeat: repeat-y;
-  background-size: contain;
-  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+
+#flower-column img {
+  width: 175px;
+  align-self: center;
 }
 
 .faq-item:hover {
@@ -238,8 +249,4 @@ a {
   background-color: white;
   color: rgb(6,25,22);
   padding:30px;
-}
-
-#descriptionPart2 {
-  color: white;
 }
