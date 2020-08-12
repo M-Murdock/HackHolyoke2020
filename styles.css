@@ -28,6 +28,11 @@ body {
   margin-left:30%;
 }
 
+#register:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 footer {
   left: 0;
   right: 0;
@@ -157,7 +162,7 @@ header {
 
 .flowerOutline {
   height: 75px;
-    padding-top:5px;
+  padding-top:5px;
 }
 a {
   text-decoration: none;
