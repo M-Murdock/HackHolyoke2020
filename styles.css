@@ -29,8 +29,9 @@ body {
 }
 
 #register:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   cursor: pointer;
+  filter: invert(64%) sepia(99%) saturate(4080%) hue-rotate(207deg) brightness(88%) contrast(70%);
 }
 
 footer {
@@ -47,7 +48,7 @@ footer {
 
 footer h1 {
   text-align: left;
-  color:black;
+  color: rgb(22, 62, 56);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -194,8 +195,8 @@ a {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
   text-align: justify;
 }
 #about-content h1 {
