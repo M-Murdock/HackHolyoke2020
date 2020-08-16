@@ -9,7 +9,7 @@ body {
 }
 
 #home {
-  padding-top: 40px;
+  padding-top: 70px;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -31,7 +31,8 @@ body {
 #register:hover {
   /* opacity: 0.7; */
   cursor: pointer;
-  filter: invert(64%) sepia(99%) saturate(4080%) hue-rotate(207deg) brightness(88%) contrast(70%);
+  /* filter: invert(64%) sepia(99%) saturate(4080%) hue-rotate(207deg) brightness(88%) contrast(70%) opacity(25%); */
+  filter: invert(14%) sepia(73%) saturate(3578%) hue-rotate(319deg) brightness(93%) contrast(124%);
 }
 
 footer {
@@ -177,6 +178,7 @@ a {
   background-image: url("images/GreenCircuitry.png");
   background-size:cover;
   background-repeat: repeat-y;
+  top:-50px;
 }
 
 .content-item {
@@ -215,7 +217,7 @@ a {
 #faqColumns {
   padding:30px;
   display:grid;
-  grid-template-columns: 40% 20% 40%;
+  grid-template-columns: 35% 30% 35%;
 }
 
 #flower-column {
@@ -241,6 +243,14 @@ a {
   margin:auto;
   font-size:15px;
   padding:35px;
+}
+
+#faq-column-1 {
+  padding-top:20px;
+}
+
+#faq-column-2 {
+    padding-top:20px;
 }
 
 .collapsed p {
