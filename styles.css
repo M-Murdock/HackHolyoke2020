@@ -1,8 +1,12 @@
 @font-face {
   font-family: 'silom';
   src: url('fonts/silom.ttf')  format('truetype'), /* Safari, Android, iOS */
-
 }
+@font-face {
+  font-family: 'chicago';
+  src: url('fonts/Chicago.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
   margin: 0px 0px 0px 0px;
   font-family: 'silom', Fallback, sans-serif;
@@ -24,38 +28,66 @@ body {
 }
 
 #register {
-  width:20%;
+  height:120px;
   margin-left:30%;
+  width: 20%;
+  background-size:contain;
+  background-image: url("images/RegisterCloud.png");
+  display:inline-block;
+  background-repeat: no-repeat;
 }
 
 #register:hover {
-  /* opacity: 0.7; */
+  width:20%;
+  background-size: contain;
+  background-image: url("images/RegisterCloud2.png");
   cursor: pointer;
-  /* filter: invert(64%) sepia(99%) saturate(4080%) hue-rotate(207deg) brightness(88%) contrast(70%) opacity(25%); */
-  filter: invert(14%) sepia(73%) saturate(3578%) hue-rotate(319deg) brightness(93%) contrast(124%);
+  background-repeat: no-repeat;
 }
 
 footer {
+  background-color: rgb(48, 80, 75);
   left: 0;
   right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   grid-area: footer;
-  font-size:20px;
-  background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  position:absolute;
-}
-
-footer h1 {
-  text-align: left;
-  color: rgb(22, 62, 56);
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 17px;
+  color: white;
+  padding: 20px;
 }
 
 footer img {
+  height: 50px;
+  width: 50px;
+}
+
+footer div {
+  padding-left:30px;
+  padding-right:30px;
+}
+
+#sponsors-content {
+  left: 0;
+  right: 0;
+  font-size:20px;
+  background-color: rgb(6, 25, 22);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#sponsors-content h1 {
+  text-align: left;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sponsors-content img {
   width:40%;
+  padding-bottom: 30px;
 }
 
 #top {
@@ -200,6 +232,9 @@ a {
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
+}
+#about-content p {
+  font-family: 'chicago', Fallback, sans-serif;
 }
 #about-content h1 {
   text-align: center;
