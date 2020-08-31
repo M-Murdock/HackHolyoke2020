@@ -27,7 +27,7 @@ body {
 
 #register {
   height:120px;
-  margin-left:30%;
+  margin-left:40%;
   width: 20%;
   background-size:contain;
   background-image: url("images/RegisterCloud.png");
@@ -39,6 +39,42 @@ body {
   width:20%;
   background-size: contain;
   background-image: url("images/RegisterCloud2.png");
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+#sponsor {
+  height:120px;
+  margin-left:20%;
+  width: 20%;
+  background-size:contain;
+  background-image: url("images/SponsorCloud.png");
+  display:inline-block;
+  background-repeat: no-repeat;
+}
+
+#sponsor:hover {
+  width:20%;
+  background-size: contain;
+  background-image: url("images/SponsorCloudHover.png");
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+#mentor {
+  height:120px;
+  margin-left:20%;
+  width: 20%;
+  background-size:contain;
+  background-image: url("images/MentorCloud.png");
+  display:inline-block;
+  background-repeat: no-repeat;
+}
+
+#mentor:hover {
+  width:20%;
+  background-size: contain;
+  background-image: url("images/MentorCloudHover.png");
   cursor: pointer;
   background-repeat: no-repeat;
 }
@@ -128,7 +164,7 @@ header {
   #hamburger {
     display:inline-grid;
   }
-  .flowerOutline {
+  .flowerOutline img{
     display: none;
   }
   #flower-column img{
