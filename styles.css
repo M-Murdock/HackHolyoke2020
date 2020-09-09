@@ -121,8 +121,9 @@ footer div {
 }
 
 #sponsors-content img {
-  width:40%;
+  width: 35%;
   padding-bottom: 30px;
+  padding: 20px;
 }
 
 #top {
