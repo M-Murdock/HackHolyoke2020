@@ -133,6 +133,9 @@ footer div {
   width: 40%;
 }
 
+#mastercard {
+  width: 33%;
+}
 #top {
   background-image: url("images/Gradient-Circuit.png");
   background-size:cover;
