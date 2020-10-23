@@ -136,6 +136,10 @@ footer div {
 #mastercard {
   width: 43%;
 }
+
+#stickermule {
+  width: 35%;
+}
 #top {
   background-image: url("images/Gradient-Circuit.png");
   background-size:cover;
